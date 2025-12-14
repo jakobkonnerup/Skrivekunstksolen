@@ -1,0 +1,142 @@
+{
+    "genre": {
+      "Prosa": [
+        "Skriv en kort prosatekst, der",
+        "Skriv en scene på en båd, der",
+        "Skriv en scene på i skoven, der",
+        "Skriv en scene, der",
+        "Skriv et prosastykke, der",
+        "Skriv 15 minutters prosa, der",
+        "Skriv en lille historie, der",
+        "Skriv et brev, der",
+        "Skriv en prosaskitse, der",
+        "Skriv et historisk fragment, der",
+        "Skriv en novelle, der",
+        "Skriv en kort tekst, der",
+        "Skriv et kort eventyr, der"
+      ],
+      "Lyrik": [
+        "Skriv et digt, der",
+        "Skriv et digt med enjambement, der",
+        "Skriv en ode, der",
+        "Skriv et haiku-digt, der",
+        "Skriv et knækprosadigt, der",
+        "Skriv et rytmisk digt, der",
+        "Skriv et strofeopdelt digt, der",
+        "Skriv en poetisk tekst, der",
+        "Skriv et kort lyrisk fragment, der",
+        "Skriv et billedrigt digt, der",
+        "Skriv et frivers-digt, der",
+        "Skriv en poetisk skitse, der"
+      ],
+      "Drama": [
+        "Skriv en sceneskitse, der",
+        "Skriv en kort dialog, der",
+        "Skriv et monologstykke, der",
+        "Skriv en dramatisk scene, der",
+        "Skriv en hurtig sketch, der",
+        "Skriv et kort manuskriptuddrag, der",
+        "Skriv en teaterscene, der",
+        "Skriv en konfrontationsscene, der",
+        "Skriv en improvisationsscene, der",
+        "Skriv et kort scenarie, der"
+      ]
+    },
+    "tema": {
+      "Venskab": [
+        "undersøger venskab",
+        "kredser om betydningen af venskab",
+        "skildrer et vigtigt øjeblik i et venskab"
+      ],
+      "Sorg": [
+        "udtrykker sorg",
+        "undersøger en følelse af tab",
+        "skildrer et jeg, der bærer på sorg"
+      ],
+      "Misundelse": [
+        "kredser om misundelse",
+        "udfolder en situation præget af misundelse",
+        "skildrer en person, der oplever stærk misundelse"
+      ],
+      "Magt": [
+        "tematiserer magt",
+        "undersøger en ubalance af magt",
+        "skildrer en konflikt, hvor magt spiller en central rolle"
+      ],
+      "Teknologi": [
+        "handler om teknologiens indflydelse",
+        "undersøger forholdet mellem mennesker og teknologi",
+        "skildrer en situation formet af moderne teknologi"
+      ],
+      "Årstider": [
+        "udspiller sig i en bestemt årstid",
+        "lader årstidens stemning præge handlingen",
+        "benytter årstidens skift som tematisk ramme"
+      ],
+      "Havet": [
+        "udspiller sig ved havet",
+        "lader havet spille en central symbolsk rolle",
+        "undersøger stemninger forbundet med havet"
+      ],
+      "Dyr": [
+        "inddrager dyr som en central del",
+        "skildrer et møde mellem menneske og dyr",
+        "bruger et dyr som symbolsk eller tematisk omdrejningspunkt"
+      ],
+      "Drømme": [
+        "bevæger sig ind i en drømmeverden",
+        "undersøger grænsen mellem drøm og virkelighed",
+        "skildrer en drømmeagtig eller surrealistisk oplevelse"
+      ],
+      "Liv og død": [
+        "behandler temaet liv og død",
+        "undersøger overgangen mellem liv og død",
+        "skildrer en situation, hvor liv og død står i kontrast"
+      ],
+      "Det overnaturlige": [
+        "inddrager noget overnaturligt",
+        "udforsker en uforklarlig hændelse",
+        "skildrer mødet med en overnaturlig kraft"
+      ],
+      "Parallelverdener": [
+        "udspiller sig i en parallelverden",
+        "undersøger mødet mellem to parallelle virkeligheder",
+        "skildrer et skift eller en overgang mellem verdener"
+      ]
+    },
+    "fokus": {
+      "Fortællerens stemme": [
+        "ved at eksperimentere med fortællerens stemme."
+      ],
+      "Slutninger": [
+        "ved at skabe en overraskende eller abrupt slutning."
+      ],
+      "Begyndelser": [
+        "ved at begynde in medias res."
+      ],
+      "Tempo": [
+        "ved at arbejde med et højt tempo.",
+        "ved at lade tempoet skifte mellem hurtigt og langsomt.",
+        "ved at lade rytmen styre fortællingens energi."
+      ],
+      "Sanselighed": [
+        "ved at bruge tydelige sanseindtryk.",
+        "ved at fokusere på lugte, lyde og følesans.",
+        "ved at skabe billeder gennem konkrete detaljer."
+      ],
+      "Worldbuilding": [
+        "ved at bygge et miljø op med tre tydelige detaljer.",
+        "ved at præsentere en verden gennem små observationer.",
+        "ved at lade omgivelserne forme stemningen."
+      ],
+      "Symbolik": [
+        "ved at indarbejde et symbol, der vokser i betydning.",
+        "ved at lade ét objekt få en skjult, symbolsk rolle."
+      ],
+      "Relationer": [
+        "ved at fokusere på relationen mellem to personer.",
+        "ved at lade en konflikt eller spænding definere forholdet mellem karaktererne."
+      ]
+    }
+  }
+  
