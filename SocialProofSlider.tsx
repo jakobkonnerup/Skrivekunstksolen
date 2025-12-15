@@ -57,7 +57,8 @@ export default function SocialProofSlider() {
       <div key={i} className="min-w-full flex justify-center px-6 pb-8">
         <SocialProofCard
           text={card.text}
-          variant={card.variant}
+          variant={card.variant as "dark" | "red" | "light" | "blue"}
+
         />
       </div>
     ))}

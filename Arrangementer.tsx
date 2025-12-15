@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import CTAButton from "../components/CTAButton";
 import InfoCard2 from "../components/InfoCard2";
 import InfoCard from "../components/InfoCard";
+import BackButton from "../components/BackButton";
+
 import arrangementer from "../assets/arrangementer.png";
 import arrangInfo1 from "../assets/arrangInfo1.png";
 import arrangInfo2 from "../assets/arrangInfo2.png";
@@ -14,6 +16,7 @@ export default function Arrangementer() {
     <div className="w-full bg-dust-blue">
       {/* ---------- HERO ---------- */}
       <div className="relative w-full h-[40vh]">
+      <BackButton />
         <img
           src={arrangementer}
           alt="Arrangementer"

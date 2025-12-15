@@ -7,7 +7,7 @@ export default function TermsAccordion() {
   return (
     <div
       onClick={() => setOpen(!open)}
-      className="bg-standard-blue text-black mx-6 rounded-3xl p-3 cursor-pointer select-none transition-all duration-300 md:w-[48vw] mx-auto"
+      className="bg-standard-blue text-black rounded-3xl p-3 cursor-pointer select-none transition-all duration-300 md:w-[48vw] mx-auto"
     >
       {/* Header */}
       <div className="flex justify-between items-center pl-4">

@@ -3,6 +3,8 @@ import ContactForm from "../components/ContactForm";
 import TermsAccordion from "../components/TermsAccordion";
 import optagelseHero from "../assets/optagelse-hero.png";
 import OpenCallCard from "../components/OpenCallCard";
+import BackButton from "../components/BackButton";
+
 
 
 export default function OptagelseOgPriser() {
@@ -11,6 +13,7 @@ export default function OptagelseOgPriser() {
 
       {/* HERO */}
       <div className="relative w-full h-[40vh]">
+      <BackButton />
   <img
     src={optagelseHero}
     alt="Undervisningen"
@@ -101,7 +104,7 @@ export default function OptagelseOgPriser() {
       </div>
       <OpenCallCard />
       <div>
-        
+
       </div>
       <TermsAccordion />
       {/* KONTAKTFORM */}

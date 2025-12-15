@@ -1,11 +1,14 @@
 import LangDigt from "../components/LangDigt";
 import Workshop from "../components/Workshop";
+import BackButton from "../components/BackButton";
+
 
 export default function Inspire() {
   return (
     <div className="w-full bg-sand">
       {/* ---------- HERO ---------- */}
       <div className="relative w-full h-[40vh] bg-orange flex items-center justify-center">
+      <BackButton />
         <h1 className="text-white font-display text-5xl md:text-6xl">
           Bliv Inspireret!
         </h1>

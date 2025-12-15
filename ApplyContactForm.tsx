@@ -57,7 +57,12 @@ export default function ApplyContactForm() {
       return null;
     }
   
-    const { publicUrl } = supabase.storage.from("applications").getPublicUrl(fileName);
+    const { data: publicData } =
+    supabase.storage.from("applications").getPublicUrl(fileName);
+  
+     const publicUrl = publicData.publicUrl;
+  
+
     return publicUrl;
   }
 

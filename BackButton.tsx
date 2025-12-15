@@ -7,10 +7,15 @@ export default function BackButton() {
   return (
     <button
       onClick={() => navigate(-1)}
-      className="flex items-center gap-2 text-sand bg-transparent rounded-lg shadow hover:bg-sand/80 transition z-50"
+      className="
+        absolute top-10 left-5 z-50
+        text-sand
+        transition-all duration-300 ease-out
+        hover:opacity-80 hover:-translate-x-1
+      "
+      aria-label="Gå tilbage"
     >
-      <ArrowLeft size={20} />
-
+      <ArrowLeft size={42} />
     </button>
   );
 }

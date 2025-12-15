@@ -1,5 +1,7 @@
 import CTAButton from "../components/CTAButton";
 import InfoCard2 from "../components/InfoCard2";
+import BackButton from "../components/BackButton";
+
 import djuurhus from "../assets/djuurhus.jpg";
 import nymo from "../assets/nymo.jpg";
 import dalgas from "../assets/dalgas.jpg";
@@ -13,6 +15,7 @@ export default function Undervisere() {
 
       {/* ---------- HERO (rød baggrund) ---------- */}
       <div className="relative w-full h-[35vh] bg-standard-red flex items-center justify-center">
+      <BackButton />
         <h1 className="text-white font-display text-5xl md:text-6xl">
           Undervisere
         </h1>

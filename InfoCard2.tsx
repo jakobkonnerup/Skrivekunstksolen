@@ -5,11 +5,9 @@ interface InfoCard2Props {
   title: string;
   imageSrc: string;
   text: string;
-  buttonText: string;
-  onButtonClick?: () => void;
 }
 
-export default function InfoCard2({ title, imageSrc, text, buttonText, onButtonClick }: InfoCardProps) {
+export default function InfoCard2({ title, imageSrc, text}: InfoCard2Props) {
   return (
     <div className="bg-white rounded-lg overflow-hidden mx-4 pb-4 md:w-[30vw] md:mt-20">
       {/* Billede */}

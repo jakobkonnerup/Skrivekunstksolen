@@ -1,10 +1,14 @@
 import ApplyContactForm from "../components/ApplyContactForm";
+import BackButton from "../components/BackButton";
 
 export default function Apply() {
   return (
+    
     <div className="w-full bg-sand">
+        
       {/* ---------- HERO ---------- */}
       <div className="relative w-full h-[40vh] bg-light-green flex items-center justify-center">
+      <BackButton />
         <h1 className="text-white font-display text-5xl md:text-6xl">
           Søg ind herunder
         </h1>

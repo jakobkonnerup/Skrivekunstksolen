@@ -2,6 +2,12 @@ import { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
 import { v4 as uuidv4 } from "uuid";
 
+type Vers = {
+    id: number;
+    text: string;
+  };
+  
+
 // Supabase klient
 const supabaseUrl = "https://qphaodcuzbvjeelpizsu.supabase.co";
 const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFwaGFvZGN1emJ2amVlbHBpenN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU0NDAyMzYsImV4cCI6MjA4MTAxNjIzNn0.UqkrPa1qix86xLuhY_MVwzC7B06OpCgxsUh6jn8m_1s";
@@ -9,7 +15,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function LangDigt() {
   const [input, setInput] = useState("");
-  const [vers, setVers] = useState<{ id: number; text: string }[]>([]);
+  const [vers, setVers] = useState<Vers[]>([]);
   const [cooldown, setCooldown] = useState(0);
   const [clientId, setClientId] = useState("");
 
@@ -64,17 +70,21 @@ export default function LangDigt() {
     if (input.trim() === "" || cooldown > 0) return;
 
     // Optimistisk opdatering i UI
-    const tempId = Math.random(); // midlertidig nøgle
+    const tempId = Math.random();
     setVers((prev) => [...prev, { id: tempId, text: input }]);
 
     // Start cooldown
     setCooldown(600);
     localStorage.setItem("last_verse_time", Date.now().toString());
 
-    const { data, error } = await supabase.from("verses").insert({
-      client_id: clientId,
-      text: input,
-    });
+    const { data, error } = await supabase
+  .from("verses")
+  .insert({
+    client_id: clientId,
+    text: input,
+  })
+  .select("id, text")
+  .single();
 
     if (error) {
       console.error("Fejl ved indsendelse:", error);
@@ -86,7 +96,7 @@ export default function LangDigt() {
       // Erstat midlertidig ID med rigtig ID
       setVers((prev) =>
         prev.map((v) =>
-          v.id === tempId ? { id: data[0].id, text: data[0].text } : v
+          v.id === tempId ? { id: data.id, text: data.text } : v
         )
       );
     }

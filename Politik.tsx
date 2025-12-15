@@ -1,4 +1,6 @@
 import Accordion from "../components/Accordion";
+import BackButton from "../components/BackButton";
+
 
 export default function Politik() {
   return (
@@ -6,6 +8,7 @@ export default function Politik() {
 
       {/* ---------- HERO ---------- */}
       <div className="relative w-full h-[35vh] bg-dark-green flex items-center justify-center">
+      <BackButton />
         <h1 className="text-white font-display text-5xl md:text-6xl drop-shadow-lg">
           Adfærdspolitik
         </h1>
